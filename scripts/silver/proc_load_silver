@@ -1,10 +1,11 @@
 /*
 	Stored Procedure: Load Silver Layer (Bronze -> Silver)
 
-	Script: stored procedure loads data into 'silver' schema from external csv files. 
+	Script: stored procedure performs the ETL (Extract, Transform, Load) process to populate 
+			the 'silver' schema tables from the 'bronze' schema.
 		This SP performs these actions:
-			- Truncates the bronze tables before loading the data. 
-			- Uses 'BULK INSERT' command to load data from csv files to bronze tables. 
+			- Truncates the silver tables before loading the data. 
+			- Inserts transformed and cleansed data from bronze into silver tables.
 */
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
