@@ -1,5 +1,5 @@
 /*
-	Stored Procedure: Load Silver Layer (Source -> Silver)
+	Stored Procedure: Load Silver Layer (Bronze -> Silver)
 
 	Script: stored procedure loads data into 'silver' schema from external csv files. 
 		This SP performs these actions:
