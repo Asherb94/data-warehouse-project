@@ -17,4 +17,8 @@ This repository showcases expertise in:
 - Data Engineering  
 - ETL Pipeline Developer  
 - Data Modeling  
-- Data Analytics  
+- Data Analytics
+- Power Bi Dashboard Reporting
+
+
+Power Bi Dashboard can be found in the docs folder
